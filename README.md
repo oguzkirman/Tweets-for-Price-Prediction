@@ -52,7 +52,7 @@ This model learns from both market price data and twitter feed data.
 
 This ensemble learning model combines the predictions of both the market data learner and twitter data learner. Those two learners are used as the base models to train the meta model, a simple multilayer perceptron.
 
-<img alt="Market Data Learner Chart" src="plots/stack.png">
+<img alt="Market Data Learner Chart" src="plots/stacked.png">
 
 **Result**: 75% accuracy
 
