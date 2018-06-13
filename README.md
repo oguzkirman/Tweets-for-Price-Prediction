@@ -19,6 +19,8 @@ I train the networks on the historical stock price and twitter time series of Du
 
 The data is inputted as the past 5-days (a market week) worth of data for the convolutional neural networks. The output is a discrete binary variable, that classifies whether the next week's adjusted closing price is higher or lower than the present.
 
+*I chose not to do short-term price regression, because I found simple networks uselessly overfit the data*
+
 ## Market Data Learner
 
 This model only learns from the past week's market price data.
