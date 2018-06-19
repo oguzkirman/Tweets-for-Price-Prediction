@@ -25,7 +25,7 @@ The data is inputted as the past 5-days (a market week) worth of data for the co
 
 This model only learns from the past week's market price data.
 
-*Figure: Starbucks' actual adjusted closing price (blue) vs. prediction (red)* 
+*Figure: Starbucks' actual adjusted closing price flux (blue) vs. prediction (red)* 
 <img alt="Market Data Learner Chart" src="plots/unaugmented.png">
 
 **Result**: 55% accuracy
