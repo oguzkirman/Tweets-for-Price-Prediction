@@ -7,10 +7,6 @@ I do not believe that market price history alone is good enough to predict futur
 
 ~~This project attempts to scrape the tweets of certain brands and input them to neural network, with the historic prices of that brand's stock as labels. This way, there is no need for a separate sentiment analysis component.~~ *I ran into difficulties with the character encoding of an obscure emoji, so I will just use the numeric number of replies, retweets, and likes of each tweet*
 
-## Usage
-
-Not yet available
-
 ## Models
 
 [Convoutional neural networks](http://cs231n.github.io/convolutional-networks/) are used to learn from the temporal localities of the stock market time series and/or twitter feed information.
