@@ -5,7 +5,9 @@ Scraping Twitter data for predicting stock prices
 
 I do not believe that market price history alone is good enough to predict future prices, but that data can be augmented. An easily accessible source would be a brand's twitter feed. Apparently, twitter mood has been [correlated to stock prices](https://arxiv.org/pdf/1010.3003.pdf) before, in which sentiment analysis was applied to tweets and the results of that are inputted to a neural network.
 
-~~This project attempts to scrape the tweets of certain brands and input them to neural network, with the historic prices of that brand's stock as labels. This way, there is no need for a separate sentiment analysis component.~~ *I ran into difficulties with the character encoding of an obscure emoji, so I will just use the numeric number of replies, retweets, and likes of each tweet.*
+~~This project attempts to scrape the tweets of certain brands and input them to neural network, with the historic prices of that brand's stock as labels. This way, there is no need for a separate sentiment analysis component. Unfortunately, I ran into difficulties with the character encoding of an obscure emoji, so~~ For training the models in this project, I will just use the numeric number of replies, retweets, and likes of each tweet.
+
+I didn't use a [Twitter-specific API](https://developer.twitter.com/en/docs/basics/getting-started) to scrape Twitter data, to avoid having to download and install something I'd only use once.
 
 ## Models
 
